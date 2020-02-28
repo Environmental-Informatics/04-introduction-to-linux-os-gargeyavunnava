@@ -1,0 +1,11 @@
+
+# to get the last 20 files and store them
+
+vvunnava@scholar-fe02:/ $ ls -l /etc | nl | tail -n 20 > > /home/vvunnava/ABE65100/04-introduction-to-linux-os-gargeyavunnava/Lab04/Part_11_last_20_files.txt
+
+
+
+# to get the 20th last file in /etc and store it
+
+vvunnava@scholar-fe02:/ $ ls -l /etc | nl | tail -n 20 | head -n 1 > /home/vvunnava/ABE65100/04-introduction-to-linux-os-gargeyavunnava/Lab04/Part_11.txt
+

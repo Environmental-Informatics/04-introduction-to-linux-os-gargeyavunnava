@@ -1,0 +1,11 @@
+Filters can be applied to see only selected data from a file.
+
+head - shows the top few lines of the file.
+tail - shows the last few lines of the file.
+sort - sorts the lines. default: alphabetically based on the first alphabet of the line.
+nl - inserts line numbers.
+wc - gives the count of words/charecters/lines (based on requirement) .
+cut - divides the data based on seperatror charecter.
+sed - seacrh and replac.
+uniq - removes duplicate lines.
+tac - prits last line through first line.
